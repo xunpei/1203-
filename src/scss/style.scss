@@ -1,0 +1,33 @@
+@import "common.scss";
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    header {
+        width: 100%;
+        height: pxTorem(44px);
+        background: #00f;
+    }
+    section {
+        width: 100%;
+        flex: 1;
+        background: #f0f;
+        .banner {
+            width: 100%;
+            height: pxTorem(150px);
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+                .swiper-wrapper {
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide {
+                        width: 100%;
+                        height: 100%
+                    }
+                }
+            }
+        }
+    }
+}
